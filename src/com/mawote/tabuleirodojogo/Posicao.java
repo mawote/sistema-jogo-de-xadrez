@@ -1,4 +1,4 @@
-package com.mawote.tabuleiro;
+package com.mawote.tabuleirodojogo;
 
 public class Posicao {
 	
