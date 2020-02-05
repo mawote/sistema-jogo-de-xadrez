@@ -1,13 +1,13 @@
 package com.mawote.aplication;
 
-import com.mawote.tabuleirodojogo.Tabuleiro;
+import com.mawote.xadrez.PartidaDeXadrez;
 
 public class JogoDeXadrezProgram {
 
 	public static void main(String[] args) {
 
-		Tabuleiro tabuleiro = new Tabuleiro(8,8);
-
+		PartidaDeXadrez partidaDeXadrez = new PartidaDeXadrez();
+		UI.imprimaTabuleiro(partidaDeXadrez.getPecas());
 	}
 
 }
